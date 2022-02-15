@@ -8,7 +8,7 @@ machine learning project that predict the price of a ticked based on other featu
 
 ### Dataset
 
-Flights Dataset
+Flights Dataset<br>
 https://docs.google.com/spreadsheets/d/1f0MAS55NA-A06hJdD-FgyS31Ws8jOuzPkzAEBQ50vUw/edit?usp=sharing
 
 ### Target Variable
