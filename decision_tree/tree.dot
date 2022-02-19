@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Jet Airways <= 0.5\nmse = 22441092.045\nsamples = 7323\nvalue = 9039.892", fillcolor="#fef8f5"] ;
+1 [label="Jet Airways Business <= 0.5\nmse = 18339289.557\nsamples = 4738\nvalue = 7603.818", fillcolor="#fefcfa"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Multiple carriers <= 0.5\nmse = 14948088.313\nsamples = 4732\nvalue = 7539.461", fillcolor="#fefcfa"] ;
+1 -> 2 ;
+3 [label="mse = 12324601.003\nsamples = 3897\nvalue = 6825.611", fillcolor="#fffdfc"] ;
+2 -> 3 ;
+4 [label="mse = 13714362.737\nsamples = 835\nvalue = 10871.047", fillcolor="#fdf4ee"] ;
+2 -> 4 ;
+5 [label="source_Banglore <= 0.5\nmse = 113444011.556\nsamples = 6\nvalue = 58359.667", fillcolor="#e78b49"] ;
+1 -> 5 ;
+6 [label="mse = 8395506.25\nsamples = 2\nvalue = 49388.5", fillcolor="#eb9f68"] ;
+5 -> 6 ;
+7 [label="mse = 105606890.688\nsamples = 4\nvalue = 62845.25", fillcolor="#e58139"] ;
+5 -> 7 ;
+8 [label="source_Mumbai <= 0.5\nmse = 19251002.095\nsamples = 2585\nvalue = 11672.047", fillcolor="#fcf3ec"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="source_Delhi <= 0.5\nmse = 17454464.847\nsamples = 2440\nvalue = 12004.188", fillcolor="#fcf2ea"] ;
+8 -> 9 ;
+10 [label="mse = 22990056.947\nsamples = 1438\nvalue = 11562.331", fillcolor="#fcf3ec"] ;
+9 -> 10 ;
+11 [label="mse = 8827870.787\nsamples = 1002\nvalue = 12638.309", fillcolor="#fcf0e8"] ;
+9 -> 11 ;
+12 [label="mse = 16387716.787\nsamples = 145\nvalue = 6082.924", fillcolor="#ffffff"] ;
+8 -> 12 ;
+}
